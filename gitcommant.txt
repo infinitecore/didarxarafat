@@ -1,0 +1,24 @@
+-----------------------------Making folder and file and access thme----------------------
+
+mkdir <foldername> // creat folder inside local machine
+cd <foldername> // navigate to the folder
+ls // show the folder that exist on the directory
+ls .a // show hidden folder that exisit on the directiory
+cd .. // go back to previous directiory
+touch <filename> creat file inside a folder
+cat <filename> just to see the content inside file
+
+------------------------------Delet folder------------------------------------------------
+rm -r <foldername> // remove a folder
+rm -f <filename> // remove a file
+
+-----------------------------Github to local machine--------------------------------------
+git clone <repository link> // clone a git repo from githum
+git add <file> // add changes specific file that exist or newly created
+git add . // add changes of all file that exist on the repo
+git commit -m "message"// save changes with message
+git push origin main
+
+--------------------------Local machine to github-----------------------------------------
+git init // intialize the file to track git 
+rm -rf .git // undo
